@@ -17,7 +17,7 @@ public class WeatherService {
     private final String dailyWeatherUrl = "https://api.openweathermap.org/data/2.5/onecall";
     private final String weeklyWeatherUrl = "https://api.openweathermap.org/data/2.5/forecast";
 
-    private String apiKey = "a354c98d6aeca495360fe2132fdc66f2";
+    private String apiKey = "put your API_KEY to here";
 
     @Autowired
     private RestTemplate restTemplate;
